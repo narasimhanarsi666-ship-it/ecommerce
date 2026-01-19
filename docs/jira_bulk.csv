@@ -1,0 +1,10 @@
+Issue Type,Summary,Description,Parent,Labels,Components
+Epic,ECOM-FE: Frontend Checkout & Cart,Next.js UI and UX for checkout,,frontend,checkout
+Epic,ECOM-BE: Backend Services,FastAPI microservices for ecom,,backend,api
+Epic,ECOM-AUTO: Automation,pytest + Playwright suites,,qa,tests
+Story,Cart page & components,Cart UI and store,ECOM-FE,frontend,checkout
+Task,Implement CartSummary.tsx,Price and items UI,Cart page & components,frontend,cart
+Story,CART API endpoints,Add/Update/Merge cart,ECOM-BE,backend,cart
+Task,Implement cart_routes.py,Routes wiring,CART API endpoints,backend,cart
+Story,API test framework,httpx clients and fixtures,ECOM-AUTO,qa,api
+Task,Create add_item tests,Parametrized cases,API test framework,qa,cart

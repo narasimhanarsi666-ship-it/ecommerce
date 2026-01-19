@@ -1,0 +1,10 @@
+components:
+  cart:
+    backend:
+      - ecommerce-backend/src/api/cart/**
+      - ecommerce-backend/src/services/cart_service.py
+      - ecommerce-backend/src/domain/cart.py
+    frontend:
+      - ecommerce-frontend/src/pages/cart.tsx
+      - ecommerce-frontend/src/components/cart/**
+      - ecommerce-frontend/src/services/checkoutApi.ts
